@@ -44,7 +44,7 @@ public class AppTest {
 	@Test
 	void test_button_click(FxRobot robot) {
 		robot.clickOn(".button");
-		
+
 		FxAssert.verifyThat("#textField", TextInputControlMatchers.hasText("Hello World"));
 	}
 
